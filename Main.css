@@ -1,0 +1,13 @@
+html {
+    background-color: cadetblue;
+}
+nav ul {
+
+    list-style-type: none;
+}
+
+nav ul li {
+
+    display: inline;
+    margin: 5px;
+}
