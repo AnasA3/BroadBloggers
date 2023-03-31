@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Web Programming Zips"
+		},
+		{
+			"path": "../../NetBeansProjects/working-files-mach10"
+		},
+		{
+			"path": "../Web Programming Zips/Lab_08"
+		},
+		{
+			"path": "../Web Programming Zips/Lab_6"
+		},
+		{
+			"path": "../Web Programming Zips/working-files-mach16"
+		},
+		{
+			"path": "../blog"
+		},
+		{
+			"path": "../LAB-4"
+		},
+		{
+			"path": "../Web Programming Zips/lab-5"
+		},
+		{
+			"path": "../Web Programming Zips/working-files-feb3"
+		},
+		{
+			"path": "../Lab3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web Programming Zips"
+	}
+}

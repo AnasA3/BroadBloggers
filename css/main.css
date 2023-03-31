@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+    color: darkcyan;
+}
+strong{
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+li{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: #E7F2F8
+}
+nav a:hover, nav a:focus, nav a:active{
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+nav a:hover {
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h1 {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 40px;
+}
+
+section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    flex-basis: 200px;
+}
+
+section img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links a {
+    margin-right: 10px;
+}
+#Contact{
+    font-size: larger;
+}
+#Contact-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#Contact-header{
+    font-size: larger;
+    font-family: 'Ubuntu', sans-serif;
+}
+#Return{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+#Return a:hover{
+    color: chartreuse;
+}
+input[type=submit]:hover{
+background-color: chartreuse;
+}
+  
