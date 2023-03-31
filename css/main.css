@@ -145,4 +145,12 @@ footer a:hover{
 input[type=submit]:hover{
 background-color: chartreuse;
 }
-  
+button {
+    
+    background-color: ghostwhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+#Fbtn1{
+
+}

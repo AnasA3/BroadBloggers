@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- <link rel="stylesheet" href="styles/media.css"> -->
+    <script src="index.js" defer> </script>
 
 
 </head>
@@ -38,17 +39,19 @@
 	<section id="foods">
 
 		<h1>Foods</h1>
-        <button type="button" onclick="function1()">Read more</button> 
+        <div id="Fbtn1">
+        <button type="button" id="Readbtn" onclick="function1()"> Read more </button>
+        </div> 
         <div id="Dropcontent" style="display:none;">
         <h2> 5 health tips to follow! </h2>
         <h3> 1. Strive for at least 150 minutes of exercise per week</h3>
         <p>  Break it down to 40 minutes 4 days a week, <br> 
             30 minutes 5 days a week, or however you'd like! <br>
             Choose what works best for your lifestyle. <br>
+            <button type="button" onclick="function2()" style="display: block;"> Close</button>
             </p>
         </div>
 		<p>Here are some articles about delicious foods:</p>
-
 		<ul>
 
 			<li>
