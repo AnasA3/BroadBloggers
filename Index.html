@@ -25,10 +25,10 @@
 
 				<li><a href="#foods">Foods</a></li>
 				<li><a href="#health">Health</a></li>
-				<li><a href="#books">Books</a></li>
                 <li id="Title"> <strong> BroadBloggers </strong></li>
+                <li><a href="#books">Books</a></li>
 				<li><a href="#sports">Sports</a></li>
-				<li><a href="#entertainment">Entertainment</a></li>
+				<!-- <li><a href="#entertainment">Entertainment</a></li> -->
 
 			</ul>
 
@@ -39,24 +39,39 @@
 	<section id="foods">
 
 		<h1>Foods</h1>
-        <div id="Fbtn1">
-        <button type="button" id="Readbtn" onclick="function1()"> Read more </button>
+        <h2> Restaurants of the week! </h2>
+        <div id="Rbtn">
+        <button type="button" id="Readbtn" onclick="foodbtn()"> Read more </button>
         </div> 
         <div id="Dropcontent" style="display:none;">
-        <h2> 5 health tips to follow! </h2>
-        <h3> 1. Strive for at least 150 minutes of exercise per week</h3>
-        <p>  Break it down to 40 minutes 4 days a week, <br> 
-            30 minutes 5 days a week, or however you'd like! <br>
-            Choose what works best for your lifestyle. <br>
-            <button type="button" onclick="function2()" style="display: block;"> Close</button>
+        <h3> MR. TONKATSU</h3>
+        <p> Hailed as one of the most popular “western style” Japanese foods in Japan,
+            tonkatsu consists of a breaded, <br> deep-fried pork cutlet (not to be confused with “tonkotsu,” which is pork bone broth). <br>
+            My lunch pick at Mr. Tonkatsu is their “pork loin katsu with cheese set” which comes with a generous portion of cheese-stuffed pork katsu served with a side of shredded cabbage, miso soup and steamed rice. 
+            Their katsudon with pork loin katsu, poached egg and rice is also another one of my favourites. <br>
+             <img src="images/Foodimg1.jpg" alt="Food Image" width="300" height="200"> <br> <br>
+        </p>
+            <h3> KHAO SAN ROAD </h3>
+          <p> Sometimes there's nothing more comforting than a bowl of noodles. <br> Case in point: Khao San Roads's beef brisket khao soi. 
+            This modern Thai eatery is often packed during dinner time so I recommend grabbing a quick lunch there instead. 
+            Have a glass of cold refreshing Thai iced tea with your bowl of piping hot khao soi and I guarantee your life will never be the same again.<br>
+            <img src="images/Foodimg2.jpg" alt="Food image" width="300" height="200"> <br> <br> </p>
+            <h3> BORALIA </h3>
+            <p> Boralia offers one of the tastiest and most interesting dinners I've had in a very long time. 
+                Chef and owners Evelyn Wu and Wayne Morris focus on showcasing Canada's indigenous cuisine; <br>
+                think dishes inspired from historic recipes of Canada's early settlers and First Nations, with some plates dating back as far as the 1600's. 
+                The l'eclade (mussels smoked in pine needles), braised whelk, and pigeon pie are not to be missed. <br>
+            <img src="images/Foodimg3.jpg" alt="Food journal" width="300" height="200"> <br> <br>
+            </p>
+            <button type="button" onclick="foodbtn2()" style="display: inline-block;"> Close</button>
             </p>
         </div>
-		<p>Here are some articles about delicious foods:</p>
+		<h3> Here are some articles about delicious foods:</h3>
 		<ul>
 
 			<li>
 				<!-- <img src="food1.jpg" alt="Delicious pasta"> -->
-				<a href="#">10 Recipes for Delicious Pasta Dishes</a>
+				<a href="#"> 10 Recipes for Delicious Pasta Dishes</a>
 			</li>
 
 			<li>
@@ -76,8 +91,38 @@
 	<section id="health">
 
 		<h1>Health</h1>
+        <h2> 5 health tips to follow! </h2>
+        <div id="Rbtn2">
+        <button type="button" id="Readbtn2" onclick="healthbtn()"> Read more </button>
+        </div> 
+        <div id="Dropcontent2" style="display:none;">
+        <h3> 1. Strive for at least 150 minutes of exercise per week</h3>
+        <p>  Break it down to 40 minutes 4 days a week, <br> 
+            30 minutes 5 days a week, or however you'd like! <br>
+            Choose what works best for your lifestyle. <br> <br>
+             <img src="images/FitnessTips1.jpg" alt="Fitness Image" width="300" height="200">
+        </p>
+            <h3> 2. Cut your coffee calories </h3>
+          <p> Cut calories in your morning cup of coffee by skipping the cream and sugar. <br> 
+            Instead, try drinking it black or reducing your amount of each. <br>
+            Here are some more healthy ways to flavor your morning cup of joe. <br> <br>
+            <h3> 3. Keep a fitness journal </h3>
+            <p> Tracking keeps you accountable, 
+                and studies show that those who keep journals are more successful at weight loss than those who don't.<Br>
+            <img src="images/FitnessTips2.jpg" alt="Fitness journal" width="300" height="200">
+            </p>
+                <h3> 4. Pay attention to your thoughts</h3> 
+                <p> Thoughts are powerful; bring awareness to yours. <br>
+                    Do you encourage yourself with body positivity or hold yourself back with negativity? <br>
+                    Changing your mindset could be all it takes to get your health on track.</p>
+                <h3> 5. Eat the rainbow </h3>
+               <p> Eat foods that are closest to their natural state as possible. Aim for whole, fresh foods in a rainbow of colors. <br>
+                <img src="images/FitnessTips3.png" alt="Vegetables" width="300" height="150"> <br> <br>
+            <button type="button" onclick="healthbtn2()" style="display: inline-block;"> Close</button>
+            </p>
+        </div>
         
-            <p>Here are some articles about maintaining a healthy lifestyle:</p>
+            <h3>Here are some articles about maintaining a healthy lifestyle:<h3>
 
             <ul>
 
@@ -103,8 +148,42 @@
     <section id="books">
 
         <h1>Books</h1>
+        <h2> Top 4 books of the year!</h2>
+        <div id="Rbtn3">
+        <button type="button" id="Readbtn3" onclick="bookbtn()"> Read more </button>
+        </div> 
+        <div id="Dropcontent3" style="display:none;">
+        <h3> Really Good, Actually </h3>
+        <p>  There are lots of new books due in 2023 which I'm looking forward to reading and my list continues to expand by the day. <br>
+            All publication dates where known apply to the United Kingdom only.<br>
+            There are some promising looking debut novels out in January including Really Good, Actually by Monica Heisey loosely based on the author's experience of getting divorced in her late 20s and We All Want Impossible Things by Catherine Newman about female friendship. 
+            Death of a Bookseller by Alice Slater is one of the most intriguing crime fiction debut titles and will be published in April. <br>
+            
+             <img src="images/Bookimg1.jpg" alt="Fitness Image" width="200" height="300">
+        </p>
+            <h3> Romantic Comedy </h3>
+          <p> Romantic Comedy by Curtis Sittenfeld is out in April and is about a sketch show comedy writer and her relationship with an A-list celebrity. 
+            Also landing in April is The Memory of Animals by Claire Fuller which is about a woman who takes part in a vaccine trial with unexpected results. <br>
+            Speak to Me by Paula Cocozza is described as “a love triangle between a wife, her husband, and his mobile phone” and is the author's second novel due in June. 
+            Cocozza is the author of one of the most original debuts I have come across in recent years How To Be Human so I have high hopes for her new book. <br>
+            <img src="images/bookimg2.jpg" alt="Fitness journal" width="200" height="300">
+            <h3> 3. Keep a fitness journal </h3>
+            <p> In non-fiction, the award for eye-catching title of 2023 must surely go to Why Is This Lying Bastard Lying To Me? by Rob Burley which is a quote attributed to former Newsnight journalist Jeremy Paxman.
+                 Due in May, the book will examine Burley's 25-year career in British political television and what the future holds for interviewing in an era of fake news.<br>
+                 Fighting For Life by Isabel Hardman is a history of the National Health Service and will be published in June in time for the NHS's 75th anniversary. 
+                Hardman's book Why We Get The Wrong Politicians is one of the best books I've read about modern British politics and I hope her new book will be just as accessible.<br>
+            <img src="images/bookimg3.jpg" alt="Fitness journal" width="200" height="300">
+            </p>
+                <h3> A Thread of Violence </h3> 
+                <p> A Thread of Violence by Mark O'Connell (author of To Be a Machine and Notes From an Apocalypse) is a true crime book about the Malcolm Macarthur case and will be published in June. 
+                    <br> In April, Bad Women by Hallie Rubenhold re-examines the murder of Belle Elmore by her husband Dr Crippen in 1910.</p>
+                    <img src="images/bookimg4.jpg" alt="Vegetables" width="200" height="300"> <br> <br>
+            <button type="button" onclick="bookbtn2()" style="display: inline-block;"> Close</button>
+            </p>
+        </div>
+        
 
-        <p>Here are some book recommendations:</p>
+        <h3>Here are some book recommendations:</h3>
 
         <ul>
             <li>
@@ -128,9 +207,29 @@
         
     <section id="sports">
 
-        <h1>Sports</h1>
+        <h1 id="Sporth1"> Sports </h1>
+        <h2 id="Sporth2"> Sports news of the day! </h2>
+        <div id="Rbtn3">
+        <button type="button" id="Readbtn4" onclick="Sportbtn()"> Read more </button>
+        </div> 
+        <div id="Dropcontent4" style="display:none;">
+        <h3> Raptors' Fred VanVleet fined $30,000 for publicly criticizing NBA referee </h3>
+        <p>  <img src="images/Sportimg1.jpg" height="200" width="400"> <br>
+Toronto Raptors guard Fred VanVleet has been fined $30,000 for comments he made following the team's 108-100 loss to the Los Angeles Clippers on Wednesday.
+Afterwards, the Raptors point guard paused for a moment and said, “I don't mind; I'll take a fine; I don't really care.” <br>
+“I thought Ben Taylor was f-g terrible tonight,” he began. “I think that most nights, you know, out of the three [referees], there's one or two that just f-k the game up. It's been like that a couple of games in a row. Denver was tough, obviously.” <br>
+“You come out tonight, competing pretty hard, and I get a bulls-t tech that changes the whole dynamic of the game, changed the whole flow of the game,” VanVleet continued.
+“And you know, most of the refs are trying hard, I like a lot of the refs, they're trying hard, they're pretty fair and communicate well. And then you got the other ones who just want to be d-ks and just kind of f-k up the game. And no one's coming to see that s-t.”
+VanVleet said he feels that Taylor has a personal issue with him, which the Raptors guard said would explain the number of technical fouls he's been handed during games in which Taylor has officiated. <br>
+On Wednesday, VanVleet expressed a level of remorse following his expletive-filled rant, saying his comments were “unprofessional for his standard” and that his emotions and frustrations got the best of him.
+“[My comments] were for the better of the game,” VanVleet said. “I was emotional, like I said. It was a tough loss, things aren't going our way. I got caught up in the moment a little bit. You live, and you learn, and you move on.” <br>
+The 29-year-old point guard has racked up $19,000 worth of fines this season, the highest amount on the Raptors. According to Spotrac, Canadian guard Dillon Brooks, who plays for the Memphis Grizzlies, has been fined the most money this season ($54,000). <br> <br>
 
-        <p>Here are some articles about different sports:</p>
+            <button type="button" onclick="Sportbtn2()" style="display: inline-block;"> Close</button>
+            </p>
+        </div>
+
+        <h3>Here are some articles about different sports:<h3>
 
         <ul>
             <li>
@@ -152,30 +251,30 @@
 
     </section>
         
-    <section id="entertainment">
+    <!-- <section id="entertainment">
 
         <h1>Entertainment</h1>
 
-        <p>Here are some articles about entertainment:</p>
+        <h3>Here are some articles about entertainment:<h3>
 
         <ul>
             <li>
-                <!-- <img src="entertainment1.jpg" alt="Movie"> -->
+                 <img src="entertainment1.jpg" alt="Movie"> 
                 <a href="#">10 Must-See Movies of 2023</a>
             </li>
 
             <li>
-                <!-- <img src="entertainment2.jpg" alt="TV show"> -->
+                 <img src="entertainment2.jpg" alt="TV show"> 
                 <a href="#">5 Best TV Shows to Binge-Watch Right Now</a>
             </li>
 
             <li>
-                <!-- <img src="entertainment3.jpg" alt="Music"> -->
+                 <img src="entertainment3.jpg" alt="Music"> 
                 <a href="#">The Top 3 Music Albums of 2022</a>
             </li>
 
         </ul>
-    </section>   
+    </section>    -->
     <footer>
         <div class="footer-links">
             <a href="#"> <img src="images/Instagram logo.png" alt="Instagram Logo" width="20" height="20"> Instagram</a>
