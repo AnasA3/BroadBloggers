@@ -10,179 +10,317 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- <link rel="stylesheet" href="styles/media.css"> -->
-    <script src="index.js" defer> </script>
+    <script src="Index.js" defer> </script>
 
 
 </head>
 
 <body>
     
+    <!-- NAVBAR -->
 	<header>
 
 		<nav>
 
+            <a id="Title" class="strong" style="color: black;" href="Index.html"><span class="blog">TIA</span> <br> blog</a>
+
 			<ul>
 
-				<li><a href="#foods">Foods</a></li>
-				<li><a href="#health">Health</a></li>
-				<li><a href="#books">Books</a></li>
-                <li id="Title"> <strong> BroadBloggers </strong></li>
-				<li><a href="#sports">Sports</a></li>
-				<li><a href="#entertainment">Entertainment</a></li>
+                <li>
+
+                    <a class="home" href="Index.html">HOME</a>
+				    <a href="about.html">ABOUT</a>
+                   
+
+                    <div class="dropdown">
+
+                        <a href="categories.html" class="dropdown-btn">CATEGORIES</a>
+
+                        <ul class="dropdown-menu">
+                          <li><a href="categories.html#food">FOOD</a></li>
+                          <li><a href="categories.html#health">HEALTH</a></li>
+                          <li><a href="categories.html#book">BOOKS</a></li>
+                          <li><a href="categories.html#sport">SPORTS</a></li>
+                        </ul>
+                    </div>
+
+				    <a href="Contact.html">CONTACT <span class="us">US</span></a>
+				
+
+                </li>
+
 
 			</ul>
+
+            <li class="icon">
+                <a href="#"> <img src="images/Instagram logo.png" alt="Instagram Logo" width="25px" height="25px"></a>
+                <a href="#"> <img src="images/twitter logo.webp" alt="Twitter Logo" width="25px" height="25px"></a>
+                <a href="#"> <img src="images/Facebook logo.png" alt="Twitter Logo" width="25px" height="25px"></a>
+            </li>
 
 		</nav>
 
 	</header>
-	
-	<section id="foods">
 
-		<h1>Foods</h1>
-        <div id="Fbtn1">
-        <button type="button" id="Readbtn" onclick="function1()"> Read more </button>
-        </div> 
-        <div id="Dropcontent" style="display:none;">
-        <h2> 5 health tips to follow! </h2>
-        <h3> 1. Strive for at least 150 minutes of exercise per week</h3>
-        <p>  Break it down to 40 minutes 4 days a week, <br> 
-            30 minutes 5 days a week, or however you'd like! <br>
-            Choose what works best for your lifestyle. <br>
-            <button type="button" onclick="function2()" style="display: block;"> Close</button>
-            </p>
+
+    <!-- SECTION 1 -->
+
+    <div class="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/book2.jpeg" alt="Image 1" width="90%" height="800px">
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/book1.jpeg" alt="Image 2"  width="90%" height="800px">
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/foodsection.jpeg" alt="Image 3"  width="90%" height="800px">
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/story.jpeg" alt="Image 4"  width="90%" height="800px">
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/media.jpeg" alt="Image 5"  width="90%" height="800px">
+            </div>
+
         </div>
-		<p>Here are some articles about delicious foods:</p>
-		<ul>
 
-			<li>
-				<!-- <img src="food1.jpg" alt="Delicious pasta"> -->
-				<a href="#">10 Recipes for Delicious Pasta Dishes</a>
-			</li>
+        <ol class="carousel-indicators">
+            <li data-target=".carousel" data-slide-to="0" class="active"></li>
+            <li data-target=".carousel" data-slide-to="1"></li>
+            <li data-target=".carousel" data-slide-to="2"></li>
+            <li data-target=".carousel" data-slide-to="3"></li>
+            <li data-target=".carousel" data-slide-to="4"></li>
+        </ol>
 
-			<li>
-				<!-- <img src="food2.jpg" alt="Healthy breakfast"> -->
-				<a href="#">5 Easy and Healthy Breakfast Ideas</a>
-			</li>
+    </div>
 
-			<li>
-				<!-- <img src="food3.jpg" alt="Pizza"> -->
-				<a href="#">The Ultimate Guide to Making the Perfect Pizza</a>
-			</li>
 
-		</ul>
+    <!-- LASTEST POST -->
+
+    <section id="post">
+
+		<h1>THE LATEST POSTS</h1>
+
+
+        <div class="posts">
+
+            <a class="latest1" href="foods.html">
+                <div class="post-content">
+
+                    <img class="img1" src="images/foodicon.png" alt="" width="70px" height="70px">
+                    <h3>TIPS FOR MAKING MEALTIMES EASIER</h3>
+
+                </div>
+
+            </a>
+
+            <a class="latest2" href="foods.html">
+                <div class="post-contents">
+
+                    <img class="img2" src="images/healthicon.jpeg" alt="" width="40px" height="40px">
+                    <h3>SKIN-CARE TIPS</h3>
+
+                </div>
+            </a>
+
+            <a class="latest3" href="foods.html">
+                <div class="post-contents">
+
+                    <img class="img3" src="images/foodicon.png" alt="" width="70px" height="70px">
+                    <h3>A MODERN COOKIE SWAP</h3>
+
+                </div>
+            </a>
+
+        </div>
+
+        <div class="posts">
+
+            <a class="latest4" href="foods.html">
+                <div class="post-contents">
+
+                    <img class="img4" src="images/healthicon.jpeg" alt="" width="40px" height="40px">
+                    <h3>RELATIONSHIP TIPS</h3>
+
+                </div>
+            </a>
+
+            <a class="latest5" href="foods.html">
+                <div class="post-contents">
+
+                    <img class="img5" src="images/foodicon.png" alt="" width="70px" height="70px">
+                    <h3>11 BEST BEET RECIPES</h3>
+
+                </div>
+            </a>
+
+            <a class="latest6" href="foods.html">
+                <div class="post-content">
+
+                    <img class="img6" src="images/foodicon.png" alt="" width="70px" height="70px">
+                    <h3>7 APHRODISIAC RECIPES FOR VALENTINE’S DAY</h3>
+
+                </div>
+            </a>
+
+        </div>
 
 	</section>
-	
-	<section id="health">
+      
+    <!-- SOME NEWS AND CONTENT -->
 
-		<h1>Health</h1>
-        
-            <p>Here are some articles about maintaining a healthy lifestyle:</p>
 
-            <ul>
+    <section>
 
-                <li>
-                    <!-- <img src="health1.jpg" alt="Healthy food"> -->
-                    <a href="#">10 Superfoods That Will Boost Your Health</a>
-                </li>
+        <div class="future">
 
-                <li>
-                    <!-- <img src="health2.jpg" alt="Exercise"> -->
-                    <a href="#">5 Simple Exercises to Improve Your Overall Health</a>
-                </li>
+            <img class="hidden" src="images/world.JPG" alt="future depends on the world">
 
-                <li>
-                    <!-- <img src="health3.jpg" alt="Meditation"> -->
-                    <a href="#">How Meditation Can Improve Your Mental and Physical Health</a>
-                </li>
+            <div class="info">
 
-            </ul>
+                <h2 class="hidden">The Future Depends on Our Choices Today</h2>
+
+                <p class="hidden">
+                    The future is not predetermined or inevitable; it is a product of our collective actions and choices. Every decision we make today has the potential to influence the trajectory of the future. Our individual and collective actions can have a profound impact on the world that our children and grandchildren will inherit.
+                    Climate change is an example of how our choices today will determine the severity of its effects that we will experience in the coming decades. By reducing greenhouse gas emissions, we can mitigate the worst effects of climate change and create a more livable and resilient world for future generations.
+                    Technology is another area where our choices today will shape the future. Artificial intelligence has the potential to revolutionize many aspects of society, but if we don't regulate its development and deployment carefully, it could lead to job displacement, privacy violations, and even existential risks to humanity.
+                    As individuals, we can make a difference by living more sustainably, supporting responsible policies, and advocating for positive change. As a society, we can work together to tackle the big challenges of our time, from climate change and inequality to global health and security.
+                    Ultimately, the future is what we make of it. By taking responsibility for our actions today, we can shape a brighter tomorrow for ourselves and future generations.
+                </p>
+
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- WHAT IS TIA BLOG -->
+
+    <section>
+
+        <div class="blogs">
+
+            <div class="whatblog">
+
+                <h3>What is <span class="blog">TIA?</span></h3>
+
+                <p>
+
+                    TIA blog is a platform created by four students at Humber College, dedicated to providing informative content on food, health, books, and sports. The blog covers a wide range of topics related to these areas, including nutrition, workout routines, healthy lifestyle habits, literary reviews, sports news and updates, and much more.
+                    Through TIA blog, readers can access valuable information and insights that can help them make informed decisions about their health, diet, and lifestyle. The four founders of the blog are passionate about their respective areas of interest, and they share their knowledge and expertise with their readers in an engaging and accessible way. 
+                    TIA blog is a great resource for anyone looking to improve their health, expand their literary horizons, or stay up to date on the latest sports news.
+
+                </p>
+
+                <p class="strongs"><span class="bloggreen">TIA</span> <br> <span class="blogblack">blog</span></p>
+
+            </div>
+
+            <div class="blogimg">
+
+                <img src="images/pants.jpeg" alt="">
+                <img src="images/blog.jpeg" alt="">
+
+            </div>
+            
+
+        </div>
 
     </section>
-        
-    <section id="books">
 
-        <h1>Books</h1>
+    <!-- STORY OF UKRAINE-->
 
-        <p>Here are some book recommendations:</p>
+    <section id="story">
 
-        <ul>
-            <li>
-                <!-- <img src="book1.jpg" alt="Book cover"> -->
-                <a href="#">The Alchemist by Paulo Coelho</a>
-            </li>
+        <h1>A YEAR IN UKRAINE</h1>
 
-            <li>
-                <!-- <img src="book2.jpg" alt="Book cover"> -->
-                <a href="#">The Girl on the Train by Paula Hawkins</a>
-            </li>
+        <div class="story">
 
-            <li>
-                <!-- <img src="book3.jpg" alt="Book cover"> -->
-                <a href="#">The Hunger Games by Suzanne Collins</a>
-            </li>
+            <div class="storyuk">
+
+                <h5>NEWS</h5>
+                
+                <h4>A Year in Ukraine</h4>
+
+                <p>
+                    Since Russia's invasion of Ukraine in 2014, the conflict has continued to simmer,
+                    with occasional flare-ups resulting in casualties and destruction. 
+                    Magnum photographers have been documenting the conflict and its aftermath, highlighting the toll it has taken on the Ukrainian people. 
+                    However, documenting war is not without its challenges, and the photographers have faced difficulties such as navigating complex and dangerous terrain, 
+                    gaining access to sensitive areas, and dealing with the emotional toll of witnessing human suffering. Despite these obstacles, 
+                    the photographers remain committed to telling the stories of those affected by the conflict and shedding light on the ongoing struggle for peace and stability in Ukraine.
+                </p>
+
+
+            </div>
+
+            <div class="storyimg">
+
+                <img src="images/ukraine1.jpeg" alt="" height="167px" width="240px">
+                <img src="images/ukraine2.jpeg" alt="" height="167px" width="240px">
+                <img src="images/ukraine3.jpeg" alt="" height="167px" width="240px"> <br>
+                <img src="images/ukraine4.jpeg" alt="" height="167px" width="240px">
+                <img src="images/ukraine5.jpeg" alt="" height="167px" width="240px">
+                <img src="images/ukraine6.jpeg" alt="" height="167px" width="240px">
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FEATURED ON -->
+
+    <div class="fea">
+        <h3>featured On</h3>
+    </div>
+
+      
+
+    <!-- FOOTER -->
+
+    <footer class="foot">
+
+        <div class="footlogo">
+
+            <a class="footsection" style="color: black;" href="Index.html"><span class="footblog">TIA</span> <br> <span class="footblog2">blog</span></a>
+
+            <p>Copyright © 2023 Prime Properties</p>
+
+        </div>
+
+
+        <ul class="foot-links">
+
+            <p>Find us on social media</p>
+
+            <a href="#"> <img src="images/Instagram logo.png" alt="Instagram Logo" width="30px" height="30px"></a>
+            <a href="#"> <img src="images/twitter logo.webp" alt="Twitter Logo" width="30px" height="30px"></a>
+            <a href="#"> <img src="images/Facebook logo.png" alt="Twitter Logo" width="30px" height="30px"></a>
 
         </ul>
 
-    </section>
-        
-    <section id="sports">
+        <div class="footabout">
 
-        <h1>Sports</h1>
+            <h6>About Us</h6>
 
-        <p>Here are some articles about different sports:</p>
+            <p> 
+                Welcome to TAI Blog - your source for health, food, sports, and books. 
+                Our expert contributors share informative and entertaining content to
+                inspire and empower you to live your best life. 
+                Join our community and let's learn and grow together!
+            </p>
 
-        <ul>
-            <li>
-                <!-- <img src="sports1.jpg" alt="Football"> -->
-                <a href="#">10 Football Players to Watch in 2022</a>
-            </li>
+        </div>
 
-            <li>
-                <!-- <img src="sports2.jpg" alt="Basketball"> -->
-                <a href="#">5 Best Basketball Shoes for 2023</a>
-            </li>
-
-            <li>
-                <!-- <img src="sports3.jpg" alt="Tennis"> -->
-                <a href="#">The Top 3 Tennis Rackets for Beginners</a>
-            </li>
-
-        </ul>
-
-    </section>
-        
-    <section id="entertainment">
-
-        <h1>Entertainment</h1>
-
-        <p>Here are some articles about entertainment:</p>
-
-        <ul>
-            <li>
-                <!-- <img src="entertainment1.jpg" alt="Movie"> -->
-                <a href="#">10 Must-See Movies of 2023</a>
-            </li>
-
-            <li>
-                <!-- <img src="entertainment2.jpg" alt="TV show"> -->
-                <a href="#">5 Best TV Shows to Binge-Watch Right Now</a>
-            </li>
-
-            <li>
-                <!-- <img src="entertainment3.jpg" alt="Music"> -->
-                <a href="#">The Top 3 Music Albums of 2022</a>
-            </li>
-
-        </ul>
-    </section>   
-    <footer>
-        <div class="footer-links">
-            <a href="#"> <img src="images/Instagram logo.png" alt="Instagram Logo" width="20" height="20"> Instagram</a>
-            <a href="#"> <img src="images/twitter logo.webp" alt="Twitter Logo" width="20" height="20"> Twitter</a>
-            <a href="#"> <img src="images/Facebook logo.png" alt="Twitter Logo" width="20" height="20"> Facebook</a> <br>
-            <Br> <a href="Contact.html" id="Contact" > Contact</a>
-        </div>  
     </footer>
     
 
